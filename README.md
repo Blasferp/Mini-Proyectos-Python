@@ -73,7 +73,7 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
     6. Muestra el dibujo del ahorcado en caso de errores.
     7. Pregunta al usuario si desea jugar de nuevo después de ganar o perder.
 
-![Ahorcadito](gifs/Ahorcadito.gif)
+[![Ahorcadito](gifs/Ahorcadito.gif)]
 
 **2. Piedra, Papel o Tijera:**
 
@@ -81,7 +81,7 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
   El juego continúa hasta que uno de los jugadores (usuario o computadora) alcance 3 puntos.
   Después de cada partida, se pregunta al usuario si desea jugar nuevamente.
 
-![Piedra, Papel o Tijera](gifs/piedra_papel_tijera.gif)
+    [![Piedra Papel o Tijera](gifs/Piedra.gif)]
 
 ## Imagenes
 
