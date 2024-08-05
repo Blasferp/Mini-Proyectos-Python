@@ -62,8 +62,8 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
 
 **1. Ahorcadito:**
 
--   El jugador debe adivinar una palabra oculta antes de quedarse sin vidas.
-    
+- El jugador debe adivinar una palabra oculta antes de quedarse sin vidas.
+
     El juego procede de la siguiente manera:
     1. Lee una lista de palabras desde un archivo.
     2. Muestra un mensaje de bienvenida y proporciona detalles del juego.
@@ -73,19 +73,19 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
     6. Muestra el dibujo del ahorcado en caso de errores.
     7. Pregunta al usuario si desea jugar de nuevo después de ganar o perder.
 
-    ![Modo de Uso](Ahorcadito\Untitled ‑ Made with FlexClip.gif)
+![Ahorcadito](gifs/Ahorcadito.gif)
 
 **2. Piedra, Papel o Tijera:**
 
 - Juega al juego de Piedra, Papel o Tijera contra la computadora.  
-El juego continúa hasta que uno de los jugadores (usuario o computadora) alcance 3 puntos.
-Después de cada partida, se pregunta al usuario si desea jugar nuevamente.
+  El juego continúa hasta que uno de los jugadores (usuario o computadora) alcance 3 puntos.
+  Después de cada partida, se pregunta al usuario si desea jugar nuevamente.
 
-    ![Modo de Uso](Piedra Papel Tijera\Untitled ‑ Made with FlexClip (1).gif)
+![Piedra, Papel o Tijera](gifs/piedra_papel_tijera.gif)
 
 ## Imagenes
 
-![Principal](Piedra Papel Tijera\Untitled ‑ Made with FlexClip (1).gif)
+
 
 
 
