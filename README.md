@@ -61,7 +61,7 @@ python main.py
 El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de manera separada:
 
 **1. Ahorcadito:**
-1. [Ahorcadito](#Ahorcadito)
+
 -   El jugador debe adivinar una palabra oculta antes de quedarse sin vidas.
     
     El juego procede de la siguiente manera:
@@ -72,6 +72,8 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
     5. Verifica si la letra ingresada está en la palabra y actualiza la visualización.
     6. Muestra el dibujo del ahorcado en caso de errores.
     7. Pregunta al usuario si desea jugar de nuevo después de ganar o perder.
+
+    ![Modo de Uso](Ahorcadito\Ahorcadito.mp4)
 
 **2. Piedra, Papel o Tijera:**
 

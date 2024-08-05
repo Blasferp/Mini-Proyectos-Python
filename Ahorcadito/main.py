@@ -5,7 +5,7 @@ from dibujo import dibujo_ahorcadito
 
 
 def ahorcadito():
-        """
+    """
     Función principal para ejecutar el juego del Ahorcadito.
     El jugador debe adivinar una palabra oculta antes de quedarse sin vidas.
     
