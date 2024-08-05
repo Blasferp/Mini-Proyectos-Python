@@ -5,6 +5,19 @@ from dibujo import dibujo_ahorcadito
 
 
 def ahorcadito():
+        """
+    Función principal para ejecutar el juego del Ahorcadito.
+    El jugador debe adivinar una palabra oculta antes de quedarse sin vidas.
+    
+    El juego procede de la siguiente manera:
+    1. Lee una lista de palabras desde un archivo.
+    2. Muestra un mensaje de bienvenida y proporciona detalles del juego.
+    3. Inicializa las variables del juego, incluyendo el número de vidas y la palabra a adivinar.
+    4. Ejecuta un bucle principal donde el jugador ingresa letras para adivinar la palabra.
+    5. Verifica si la letra ingresada está en la palabra y actualiza la visualización.
+    6. Muestra el dibujo del ahorcado en caso de errores.
+    7. Pregunta al usuario si desea jugar de nuevo después de ganar o perder.
+    """
     while True:
         # Leer palabras desde el archivo
         archivo_palabras = 'listado-general-palabras.txt'

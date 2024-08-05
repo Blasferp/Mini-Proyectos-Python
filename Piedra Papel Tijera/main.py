@@ -38,7 +38,7 @@ def piedra_papel_tijera():
                 print('2 - Papel\n')
                 print('3 - Tijera\n')
                 eleccion_usuario = input('¿Cuál es tu elección para jugar? (1, 2, 3): ')
-
+                
                 # Validar que la entrada sea un número
                 if not eleccion_usuario.isdigit():
                     print('Debe ingresar un número.\n')
@@ -74,6 +74,7 @@ def piedra_papel_tijera():
 
             # Mostrar marcador actualizado
             print(f'Marcador actual: Pc: {puntaje_pc} vs Usuario: {puntaje_usuario}\n')
+            print('=============================================================================\n')
 
         # Mostrar mensaje de resultado final
         if puntaje_pc == 3:

@@ -61,13 +61,23 @@ python main.py
 El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de manera separada:
 
 **1. Ahorcadito:**
-
-- Indicaciones de uso.
+1. [Ahorcadito](#ahorcadito)
+-   El jugador debe adivinar una palabra oculta antes de quedarse sin vidas.
+    
+    El juego procede de la siguiente manera:
+    1. Lee una lista de palabras desde un archivo.
+    2. Muestra un mensaje de bienvenida y proporciona detalles del juego.
+    3. Inicializa las variables del juego, incluyendo el número de vidas y la palabra a adivinar.
+    4. Ejecuta un bucle principal donde el jugador ingresa letras para adivinar la palabra.
+    5. Verifica si la letra ingresada está en la palabra y actualiza la visualización.
+    6. Muestra el dibujo del ahorcado en caso de errores.
+    7. Pregunta al usuario si desea jugar de nuevo después de ganar o perder.
 
 **2. Piedra, Papel o Tijera:**
 
-Muestra el estado actual de las camas y los pacientes, incluyendo las camas vacías y ocupadas.
-
+- Juega al juego de Piedra, Papel o Tijera contra la computadora.  
+El juego continúa hasta que uno de los jugadores (usuario o computadora) alcance 3 puntos.
+Después de cada partida, se pregunta al usuario si desea jugar nuevamente.
 
 
 ## Imagenes
