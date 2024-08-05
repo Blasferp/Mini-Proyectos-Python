@@ -73,7 +73,7 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
     6. Muestra el dibujo del ahorcado en caso de errores.
     7. Pregunta al usuario si desea jugar de nuevo después de ganar o perder.
 
-    ![Modo de Uso](Ahorcadito\Ahorcadito.mp4)
+    ![Modo de Uso](Ahorcadito\Untitled ‑ Made with FlexClip.gif)
 
 **2. Piedra, Papel o Tijera:**
 
@@ -81,10 +81,11 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
 El juego continúa hasta que uno de los jugadores (usuario o computadora) alcance 3 puntos.
 Después de cada partida, se pregunta al usuario si desea jugar nuevamente.
 
+    ![Modo de Uso](Piedra Papel Tijera\Untitled ‑ Made with FlexClip (1).gif)
 
 ## Imagenes
 
-![Principal](imagen/Principal.PNG)
+![Principal](Piedra Papel Tijera\Untitled ‑ Made with FlexClip (1).gif)
 
 
 
