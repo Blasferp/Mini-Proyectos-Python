@@ -52,9 +52,7 @@ def main():
         try_again = input("\n\nTry again? (Press Enter else n to quit)\n ")
 
         if try_again.lower() == "n":
-            break
-
-    input("\nPress Enter to exit.")
+            sys.exit()
 
 
 if __name__ == "__main__":
