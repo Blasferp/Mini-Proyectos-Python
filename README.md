@@ -61,7 +61,7 @@ python main.py
 
 El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de manera separada:
 
-**1. Ahorcadito:**
+[**1. Ahorcadito:**](.\Ahorcadito)
 
 - El jugador debe adivinar una palabra oculta antes de quedarse sin vidas.
 
