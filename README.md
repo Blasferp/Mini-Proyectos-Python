@@ -76,7 +76,7 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
 
 [![Ahorcadito](gifs/Ahorcadito.gif)]
 
-[**2. Piedra,  Papel o Tijera:**](./Piedra_Papel_Tijera)
+[**2. Piedra,  Papel o Tijera:**](./Piedra%20Papel%20Tijera)
 
 - Juega al juego de Piedra, Papel o Tijera contra la computadora.  
   El juego continúa hasta que uno de los jugadores (usuario o computadora) alcance 3 puntos.
@@ -84,7 +84,7 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
 
 [![Piedra Papel o Tijera](gifs/Piedra.gif)]
 
-[**3. Ta Te Ti:**](./Ta_Te_Ti)
+[**3. Ta Te Ti:**](./Ta%20Te%20Ti)
 
 - Un juego clásico de tres en línea, donde el jugador compite contra la computadora o un segundo jugador.
 
