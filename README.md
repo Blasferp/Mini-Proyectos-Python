@@ -29,20 +29,18 @@ Asegúrate de tener Python 3.x instalado y las siguientes bibliotecas requeridas
 Puedes instalar las dependencias con el siguiente comando:
 
 ```
-pip install Random
+pip install random string 
 ```
-```
-pip install string 
-```
+
 ## Modo de uso
 
 ### Cómo Inicializar en tu PC.
 
 Para ejecutar esta aplicación en tu máquina local, sigue estos pasos:
 
-1. Clona este repositorio en tu sistema local.
-git clone <URL-del-repositorio>
-    cd nombre-del-repositorio
+1. **Clona este repositorio en tu sistema local.**
+   git clone <URL-del-repositorio>
+       cd nombre-del-repositorio
 
 
 2. **Instalar Dependencias:**
