@@ -1,4 +1,4 @@
-# Mini Proyectos Python:
+# Impractical Python Projects::
  ### Proyectos diversos en Python.
 
 ![Medico](python-IA.jpeg)
@@ -23,14 +23,17 @@ Este repositorio contiene una colección de proyectos cortos en Python. La idea 
 Asegúrate de tener Python 3.x instalado y las siguientes bibliotecas requeridas:
 
 - Random
+- string
 
 
 Puedes instalar las dependencias con el siguiente comando:
 
 ```
-pip install Random 
+pip install Random
 ```
-
+```
+pip install string 
+```
 ## Modo de uso
 
 ### Cómo Inicializar en tu PC.
@@ -81,7 +84,29 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
   El juego continúa hasta que uno de los jugadores (usuario o computadora) alcance 3 puntos.
   Después de cada partida, se pregunta al usuario si desea jugar nuevamente.
 
-    [![Piedra Papel o Tijera](gifs/Piedra.gif)]
+[![Piedra Papel o Tijera](gifs/Piedra.gif)]
+
+**3. Ta Te Ti:**
+
+- Un juego clásico de tres en línea, donde el jugador compite contra la computadora o un segundo jugador.
+
+Se alternan turnos para colocar X o O en una cuadrícula de 3x3. El primer jugador en alinear tres símbolos, ya sea horizontal, vertical o diagonalmente, gana la partida.
+
+[![Ta Te Ti](gifs/TaTeTi.gif)]
+
+**4. Generador de Contraseñas:**
+
+- Genera contraseñas seguras personalizadas.
+
+El usuario puede especificar:
+
+La cantidad total de caracteres.
+La cantidad de mayúsculas.
+La cantidad de caracteres especiales.
+La cantidad de números.
+La contraseña se genera cumpliendo con los requisitos establecidos.
+
+[![Generador de contraseñas](gifs/Contraseñas.gif)]
 
 ## Imagenes
 

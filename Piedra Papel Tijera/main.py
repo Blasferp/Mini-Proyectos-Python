@@ -1,3 +1,7 @@
+""" 
+Este módulo implementa un juego de piedra, papel o tijera
+donde el usuario juega contra la computadora.
+"""
 import random
 
 def piedra_papel_tijera():
@@ -13,7 +17,6 @@ def piedra_papel_tijera():
     print('                   ****** ¡Bienvenidos a Piedra, Papel o Tijera! ******\n')
     print('                -- Compite contra la computadora y alcanza 3 puntos --')
     print('=============================================================================\n')
-    
     # Opciones del juego
     opciones = {
         1: 'Piedra',
@@ -38,7 +41,6 @@ def piedra_papel_tijera():
                 print('2 - Papel\n')
                 print('3 - Tijera\n')
                 eleccion_usuario = input('¿Cuál es tu elección para jugar? (1, 2, 3): ')
-                
                 # Validar que la entrada sea un número
                 if not eleccion_usuario.isdigit():
                     print('Debe ingresar un número.\n')
@@ -65,7 +67,11 @@ def piedra_papel_tijera():
                 print(f'Hay un empate de {eleccion_pc}, sigue intentando.\n')
                 print(f'El marcador continúa Pc: {puntaje_pc} vs Usuario: {puntaje_usuario}\n')
 
-            elif (eleccion_pc == 'Tijera' and opcion_usuario == 'Papel') or (eleccion_pc == 'Papel' and opcion_usuario == 'Piedra') or (eleccion_pc == 'Piedra' and opcion_usuario == 'Tijera'):
+            elif (
+                (eleccion_pc == 'Tijera' and opcion_usuario == 'Papel') or
+                (eleccion_pc == 'Papel' and opcion_usuario == 'Piedra') or
+                (eleccion_pc == 'Piedra' and opcion_usuario == 'Tijera')
+            ):
                 print('Gana Pc\n')
                 puntaje_pc += 1  # Aumenta el puntaje de la PC
             else:
@@ -84,12 +90,16 @@ def piedra_papel_tijera():
 
         # Preguntar si desea jugar de nuevo
         while True:
+            # Solicita la respuesta del usuario y la convierte a mayúsculas
             jugar_otra_vez = input('¿Deseas jugar otra vez? (s/n): ').upper()
+            # Si el usuario desea jugar de nuevo, se sale del bucle
             if jugar_otra_vez == 'S':
                 break
-            elif jugar_otra_vez == 'N':
+            # Si el usuario no desea jugar más, se imprime un mensaje y termina la función
+            if jugar_otra_vez == 'N':
                 print('Gracias por jugar. ¡Hasta la próxima!')
                 return
+            # Si la entrada es inválida, se muestra un mensaje de error y se repite la pregunta
             else:
                 print('Error: Debes elegir entre "S" (sí) o "N" (no).\n')
 
